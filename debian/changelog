@@ -1,0 +1,5 @@
+evcloudsvc (1.0.1) xenial; urgency=low
+
+  * Initial implementation
+
+ -- Bruce Lu <lzbgt@icloud.com>  Wed, 20 Nov 2019 11:20:00 +0800

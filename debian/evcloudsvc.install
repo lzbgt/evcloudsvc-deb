@@ -1,0 +1,3 @@
+opt/local/bin/evcloudsvc opt/evcloudsvc/
+opt/local/lib opt/evcloudsvc/
+opt/local/include opt/evcloudsvc/

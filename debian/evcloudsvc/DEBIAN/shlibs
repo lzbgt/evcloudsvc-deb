@@ -1,0 +1,9 @@
+libatomic 1 evcloudsvc
+libcc1 0 evcloudsvc
+libgcc_s 1 evcloudsvc
+libgomp 1 evcloudsvc
+libitm 1 evcloudsvc
+libquadmath 0 evcloudsvc
+libssp 0 evcloudsvc
+libstdc++ 6 evcloudsvc
+libzmq 5 evcloudsvc

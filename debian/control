@@ -1,0 +1,12 @@
+Source: evcloudsvc
+Priority: optional
+Maintainer: Bruce.Lu <lzbgt@icloud.com>
+Standards-Version: 4.0.0
+Build-Depends: debhelper (>=9.0.0),
+               dh-systemd (>= 1.5)
+
+Package: evcloudsvc
+Architecture: amd64
+Depends:
+Description: EVSuites Cloud Service
+ Bridge between Edge Terminals and Cloud Applications

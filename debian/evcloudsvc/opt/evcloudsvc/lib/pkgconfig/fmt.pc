@@ -1,0 +1,11 @@
+prefix=/root/work/opencv-pocs/opencv-motion-detect/vendor
+exec_prefix=/root/work/opencv-pocs/opencv-motion-detect/vendor
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: fmt
+Description: A modern formatting library
+Version: 6.0.0
+Libs: -L${libdir} -lfmt
+Cflags: -I${includedir}
+

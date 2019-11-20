@@ -1,0 +1,16 @@
+[Unit]
+Description=evcloudsvc
+After=network.target
+
+[Service]
+Type=simple
+Environment="LD_LIBRARY_PATH=/opt/evcloudsvc/lib"
+ExecStart=/opt/evcloudsvc/evcloudsvc
+WorkingDirectory=/opt/evcloudsvc
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=evsuites
+
+[Install]
+WantedBy=multi-user.target

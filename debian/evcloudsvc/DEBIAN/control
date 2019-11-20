@@ -1,0 +1,8 @@
+Package: evcloudsvc
+Version: 1.0.1
+Architecture: amd64
+Maintainer: Bruce.Lu <lzbgt@icloud.com>
+Installed-Size: 19268
+Priority: optional
+Description: EVSuites Cloud Service
+ Bridge between Edge Terminals and Cloud Applications
