@@ -1,4 +1,6 @@
 ## build
+apt install debhelper
+apt install dh-systemd
 dpkg-buildpackage -us -uc
 
 ## notes
